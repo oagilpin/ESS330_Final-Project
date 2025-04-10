@@ -1,0 +1,23 @@
+project: 
+  type: manuscript
+  output-dir: docs
+title: "ESS330: Final Project"
+subtitle: "Intro/Methods Draft"
+authors: 
+  - name: Olivia Gilpin
+    affiliation: Colorado State University
+    roles: [writing]
+    corresponding: true
+  - name: Josh Ray
+    affiliation: Colorado State University
+    roles: [writing]
+bibliography: references.bib
+csl: apa-6th-edition.csl
+manuscript:
+  article: index.qmd
+format:
+  html:
+    self-contained: true
+execute:
+  echo: true
+editor: visual

@@ -18,7 +18,11 @@ manuscript:
   article: index.qmd
 format:
   html:
-    self-contained: true
+    self-contained: true 
+    toc: true
+    toc-depth: 4
+    toc-location: left
+    toc-title: "Table of Contents"
 execute:
   echo: true
 editor: visual

@@ -24,8 +24,6 @@ execute:
 editor: visual
 bibliography: references.bib
 csl: apa-6th-edition.csl
-manuscript:
-  article: index.qmd
 ---
 
 ## Assessing the Impact of Livestock Populations on Nitrous Oxide Emissions by Livestock

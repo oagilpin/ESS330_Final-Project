@@ -23,5 +23,3 @@ execute:
 editor: visual
 bibliography: references.bib
 csl: apa-6th-edition.csl
-manuscript:
-  article: index.qmd

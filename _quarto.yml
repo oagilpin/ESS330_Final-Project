@@ -1,5 +1,5 @@
 project: 
-  type: website
+  type: manuscript
   output-dir: docs
 title: "ESS330: Final Project"
 subtitle: "Lab 9"

@@ -19,21 +19,15 @@ format:
     toc-depth: 5
     toc-location: left
     toc-title: "Table of Contents"
-    include-in-header:
-      text: |
-        <style>
-          /* Hide the notebooks sidebar section */
-          .sidebar-item-container .sidebar-item:has(> .sidebar-item-text:contains("Notebooks")),
-          .sidebar-item-section h2:contains("Notebooks"),
-          .sidebar-item-section:has(h2:contains("Notebooks")) {
-            display: none !important;
-          }
-        </style>
 execute:
   echo: true
 editor: visual
 bibliography: references.bib
 csl: apa-6th-edition.csl
+manuscript:
+  article: index.qmd
+  notebooks:
+    - notebook: index.qmd
 ---
 
 ## Assessing the Impact of Livestock Populations on Nitrous Oxide Emissions by Livestock

@@ -12,11 +12,6 @@ authors:
   - name: Josh Ray
     affiliation: Colorado State University
     roles: [writing]
-bibliography: references.bib
-csl: apa-6th-edition.csl
-manuscript:
-  article: index.qmd
-  notebooks: false
 format:
   html:
     self-contained: true 
@@ -27,6 +22,10 @@ format:
 execute:
   echo: true
 editor: visual
+bibliography: references.bib
+csl: apa-6th-edition.csl
+manuscript:
+  article: index.qmd
 ---
 
 ## Assessing the Impact of Livestock Populations on Nitrous Oxide Emissions by Livestock

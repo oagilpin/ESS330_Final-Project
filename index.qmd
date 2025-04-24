@@ -26,8 +26,6 @@ bibliography: references.bib
 csl: apa-6th-edition.csl
 manuscript:
   article: index.qmd
-  notebooks:
-    - notebook: index.qmd
 ---
 
 ## Assessing the Impact of Livestock Populations on Nitrous Oxide Emissions by Livestock
@@ -35,7 +33,7 @@ manuscript:
 Authors: Olivia Gilpin & Josh Ray
 
 ### Abstract
-
+Greenhouse gas emissions have significantly increased over recent decades which is the largest contributor to climate change. Agricultural activities, particularly livestock farming, have emerged as major sources of nitrous oxide (N₂O), a potent greenhouse gas. However, the extent to which livestock populations influence N₂O emissions remains inadequately quantified, limiting the capacity for informed policy-making and sustainable agricultural practices.Through analyzing annual data (1990-2022) on livestock populations and corresponding nitrous oxide emissions from livestock manure management across the United States. Using statistical analysis including pearson correlation and linear regression we were able to find the relationship between livestock population size and N₂O emissions to quantify the impact of livestock growth on greenhouse gas emissions.Our results show a strong positive correlation between livestock populations and N₂O emissions (r = 0.945, p < 0.001). The regression model indicates that each additional 1,000 head of livestock corresponds to an increase of approximately 0.0048 MMT CO₂e in N₂O emissions, explaining 89.3% of the variance.  Emissions steadily increased by approximately 47% from 1990 to 2019, highlighting a significant and overwhelming upward trend. By identifying livestock population growth as a key driver of increased N₂O emissions, this study provides critical data for stakeholders in agriculture and environmental policy. These findings underscore the urgent need to adopt sustainable agricultural practices and create targeted strategies for reducing greenhouse gas emissions in livestock management systems.
 
 ### Introduction
 

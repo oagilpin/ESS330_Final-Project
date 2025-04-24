@@ -19,6 +19,14 @@ format:
     toc-depth: 5
     toc-location: left
     toc-title: "Table of Contents"
+    include-in-header:
+      text: |
+        <style>
+          /* Hide the notebooks section */
+          .quarto-notebook-nav {
+            display: none !important;
+          }
+        </style>
 execute:
   echo: true
 editor: visual

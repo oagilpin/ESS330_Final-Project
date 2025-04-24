@@ -18,8 +18,6 @@ format:
     toc-depth: 5
     toc-location: left
     toc-title: "Table of Contents"
-    notebook-links: false
-      
 execute:
   echo: true
 editor: visual

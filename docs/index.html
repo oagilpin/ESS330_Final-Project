@@ -3117,6 +3117,14 @@ padding-bottom: 0.5em;
 font-family: inherit;
 }
 </style>
+<style>
+
+.sidebar-item-container .sidebar-item:has(> .sidebar-item-text:contains("Notebooks")),
+.sidebar-item-section h2:contains("Notebooks"),
+.sidebar-item-section:has(h2:contains("Notebooks")) {
+display: none !important;
+}
+</style>
 
 
 <meta name="citation_title" content="ESS330: Final Project">
@@ -4010,7 +4018,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","loop":false});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

@@ -1,8 +1,7 @@
 project: 
   type: manuscript
   output-dir: docs
-title: "ESS330: Final Project"
-subtitle: "Lab 9"
+title: "CSU ESS330: Final Project"
 authors: 
   - name: Olivia Gilpin
     affiliation: Colorado State University

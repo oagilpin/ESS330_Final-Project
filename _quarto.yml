@@ -1,0 +1,24 @@
+project: 
+  type: manuscript
+  output-dir: docs
+title: "CSU ESS330: Final Project"
+authors: 
+  - name: Olivia Gilpin
+    affiliation: Colorado State University
+    roles: [writing]
+    corresponding: true
+  - name: Josh Ray
+    affiliation: Colorado State University
+    roles: [writing]
+format:
+  html:
+    self-contained: true 
+    toc: true
+    toc-depth: 5
+    toc-location: left
+    toc-title: "Table of Contents"
+execute:
+  echo: true
+editor: visual
+bibliography: references.bib
+csl: apa-6th-edition.csl
